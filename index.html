@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>GRIDBOX</title>
+  <link rel="stylesheet" type="text/css" href="./gridbox.css">
+  <style>
+    body {
+      font-family: tahoma;
+    }
+    #app {
+      display: block;
+      justify-content: center;
+      align-items: center;
+    }
+    .header {
+      background: rgb(248,248,248);
+      height: 4.5rem;
+      border-bottom: .0625rem solid rgb(168,168,168);
+    }
+
+    .header h1 {
+      font-size: 1.5rem;
+      line-height: 4.2rem;
+      margin-left: .625rem;
+    }
+
+    .column {
+      padding: 1.25rem;
+      background: rgb(248,248,248);
+      border: .0625rem solid rgb(168,168,168);
+      border-radius: .625rem;
+    }
+
+    p {
+      display: block;
+      text-align: center;
+    }
+    .right {
+      background: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div class="mi-container-fluid">
+      <div class="mi-row header">
+        <div class="mi-col-12">
+          <h1>GRIDBOX</h1>
+        </div>
+      </div>
+      <div class="mi-row mi-row-top-margin">
+        <div class="mi-col-12 mi-col-margin">
+          <h4>keep sized</h4>
+        </div>
+        <div class="mi-col-3 mi-col-margin">
+          <div class="column">
+            <p>col 1</p>
+          </div>
+        </div>
+        <div class="mi-col-3 mi-col-margin">
+           <div class="column">
+            <p>col 2</p>
+          </div>
+        </div>
+        <div class="mi-col-3 mi-col-margin">
+          <div class="column">
+            <p>col 3</p>
+          </div>
+        </div>
+        <div class="mi-col-3 mi-col-margin">
+          <div class="column">
+            <p>col 4</p>
+          </div>
+        </div>
+      </div>
+      <div class="mi-row  mi-row-top-margin">
+        <div class="mi-col-12 mi-col-margin">
+          <h4>Responsive</h4>
+        </div>
+        
+        <div class="mi-col-12 mi-col-medium-6 mi-col-margin">
+          <div class="column">
+            <p>col 1</p>
+          </div>
+        </div>
+        <div class="mi-col-12 mi-col-medium-6 mi-col-margin">
+           <div class="column">
+            <p>col 2</p>
+          </div>
+        </div>
+        <div class="mi-col-12 mi-col-medium-6 mi-col-margin">
+          <div class="column">
+            <p>col 3</p>
+          </div>
+        </div>
+        <div class="mi-col-12 mi-col-medium-6 mi-col-margin">
+          <div class="column">
+            <p>col 4</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mi-row  mi-row-top-margin">
+        <div class="mi-col-12 mi-col-margin">
+          <h4>OFFSET</h4>
+        </div>
+        <div class="mi-col-2 mi-col-margin">
+          <div class="column">
+            <p>col 1</p>
+          </div>
+        </div>
+        <div class="mi-col-8 mi-offset-2 mi-col-margin">
+           <div class="column">
+            <p>col 2</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mi-row  mi-row-top-margin">
+        <div class="mi-col-12 mi-col-margin column">
+          <p>More examples soon</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
